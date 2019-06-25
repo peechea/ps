@@ -1,0 +1,47 @@
+﻿
+@{
+    ViewBag.Title = "Reserve";
+}
+
+<style scoped>
+    .grid-container {
+        display: inline-grid;
+        grid-template-columns: 100px 100px 100px;
+        background-color: #2196F3;
+        padding: 10px;
+        grid-gap: 10px;
+        margin: 15px;
+    }
+
+    .grid-item {
+        background-color: white;
+        border: 1px solid rgba(0, 0, 0, 0.8);
+        padding: 20px;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .hol:hover {
+        background-color: lightblue;
+    }
+</style>
+
+<div class="jumbotron">
+    <center><h2>คุณได้เลือกโซน A โต๊ะที่ 1 ที่นั่งที่ 1</h2></center>
+</div>
+
+    <center><h2>โปรดใส่รหัสนักเรียนเพื่อยืนยันการจอง</h2></center>
+
+<div style="margin:100px">
+<div class="row">
+    <center>
+        <label>ID : </label>
+        <input placeholder="Your Student ID" />
+    </center>
+</div>
+    <center>
+        <div style="padding-top:20px;">
+            <button class="btn-primary">ยืนยัน</button>
+        </div>
+    </center>
+</div>

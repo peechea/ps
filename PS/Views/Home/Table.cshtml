@@ -1,0 +1,46 @@
+﻿
+@{
+    ViewBag.Title = "Table";
+}
+
+<style scoped>
+    .grid-container {
+        display: inline-grid;
+        grid-template-columns: 200px 200px 200px;
+        background-color: #2196F3;
+        padding: 25px;
+        grid-gap: 25px;
+        margin: 15px;
+    }
+
+    .grid-item {
+        background-color: white;
+        border: 1px solid rgba(0, 0, 0, 0.8);
+        padding: 20px;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .hol:hover {
+        background-color: lightblue;
+    }
+</style>
+
+<div class="jumbotron">
+    <center><h1>โปรดเลือกโต๊ะอาหาร</h1></center>
+</div>
+
+<center>
+    <h1>Zone 1</h1>
+    <div class="grid-container">
+        <div class="grid-item hol">1</div>
+        <div class="grid-item hol">2</div>
+        <div class="grid-item hol">3</div>
+        <div class="grid-item hol">4</div>
+        <div class="grid-item hol">5</div>
+        <div class="grid-item hol">6</div>
+        <div class="grid-item hol">7</div>
+        <div class="grid-item hol">8</div>
+        <div class="grid-item hol">9</div>
+    </div>
+</center>

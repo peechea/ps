@@ -1,0 +1,76 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+<style scoped>
+    .grid-container {
+        display: inline-grid;
+        grid-template-columns: 100px 100px 100px;
+        background-color: #2196F3;
+        padding: 10px;
+        grid-gap: 10px;
+        margin: 15px;
+    }
+
+    .grid-item {
+        background-color: white;
+        border: 1px solid rgba(0, 0, 0, 0.8);
+        padding: 20px;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .hol:hover{
+        background-color: lightblue;
+    }
+    .zone{
+        background-color: lightgray;
+        padding: 20px;
+        font-size: 30px;
+        text-align: center;
+    }
+
+</style>
+
+
+<div class="jumbotron">
+    <center><h1>ระบบจองโต๊ะโรงอาหาร</h1></center>
+    <center><h1>โปรดเลือกโซนโรงอาหาร</h1></center>
+</div>
+
+<div class="row" >
+    <div class="col-md-6">
+ <center>
+     <p class="zone hol">Zone A</p>
+   <div class="grid-container">
+        <div class="grid-item">1</div>
+        <div class="grid-item">2</div>
+        <div class="grid-item">3</div>
+        <div class="grid-item">4</div>
+        <div class="grid-item">5</div>
+        <div class="grid-item">6</div>
+        <div class="grid-item">7</div>
+        <div class="grid-item">8</div>
+        <div class="grid-item">9</div>
+    </div>
+ </center>
+    </div>
+    <div class="col-md-6"> 
+       <center>
+           <p class="zone hol">Zone B</p>
+        <div class="grid-container">
+            <div class="grid-item">1</div>
+            <div class="grid-item">2</div>
+            <div class="grid-item">3</div>
+            <div class="grid-item">4</div>
+            <div class="grid-item">5</div>
+            <div class="grid-item">6</div>
+            <div class="grid-item">7</div>
+            <div class="grid-item">8</div>
+            <div class="grid-item">9</div>
+         </div>
+       </center>
+</div>
+    </div>
+
+
+
